@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,6 +19,6 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        textScore.text = $"<color=#04B400>{playerScore}</color>" + " : " + $"<color=#B40E00>{playerComputerScore}</color>";
+        textScore.text = $"<color=#04B400>{playerScore}</color> : <color=#B40E00>{playerComputerScore}</color>";
     }
 }
